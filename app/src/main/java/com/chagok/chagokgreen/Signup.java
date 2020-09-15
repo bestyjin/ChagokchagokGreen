@@ -15,7 +15,6 @@ public class Signup extends AppCompatActivity {
     ImageButton btn1;
     DBHelper mydb;
     EditText name, id, pw, repw, phone, email;
-    //TextView testid, testpw;
     String spw, srepw, stestid, stestpw;
 
 
@@ -30,9 +29,6 @@ public class Signup extends AppCompatActivity {
         repw = (EditText)findViewById(R.id.repw);
         phone = (EditText)findViewById(R.id.phone);
         email = (EditText)findViewById(R.id.email);
-       // testid = (TextView)findViewById(R.id.testid);
-       // testpw = (TextView)findViewById(R.id.testpw);
-
 
         btn1 = (ImageButton)findViewById(R.id.btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -50,11 +46,6 @@ public class Signup extends AppCompatActivity {
 
                         Intent intent = new Intent(Signup.this, Login.class);
                         startActivity(intent);
-
-                       /* stestid = mydb.getLoginid();
-                        stestpw = mydb.getPw();
-                        testid.setText(stestid);
-                        testpw.setText(stestpw);*/
                     }
                     else
                         Toast.makeText(getApplicationContext(),"회원가입 정보를 다시 확인해주세요", Toast.LENGTH_SHORT).show();
@@ -62,8 +53,6 @@ public class Signup extends AppCompatActivity {
 
                 else
                 Toast.makeText(getApplicationContext(),"비밀번호가 일치하지 않습니다", Toast.LENGTH_SHORT).show();
-
-
             }
         });
 
@@ -97,7 +86,4 @@ public class Signup extends AppCompatActivity {
             }
         }
     }
-
-
-
-    }
+}

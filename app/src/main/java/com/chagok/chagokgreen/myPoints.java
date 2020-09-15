@@ -24,7 +24,5 @@ public class myPoints extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
 }
