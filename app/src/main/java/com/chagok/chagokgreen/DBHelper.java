@@ -102,7 +102,6 @@ public class DBHelper extends SQLiteOpenHelper {
         return setName;
     }
 
-
     public String getLoginid() {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res = db.rawQuery("select * from signup", null);
