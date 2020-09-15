@@ -34,15 +34,11 @@ public class Login extends AppCompatActivity {
         below_btn2 = (ImageButton) findViewById(R.id.btn4);
         loginid = (EditText)findViewById(R.id.loginid);
         loginpw = (EditText)findViewById(R.id.loginpw);
-       // testid = (TextView)findViewById(R.id.testid);
-        //testpw = (TextView)findViewById(R.id.testpw);
 
 
         try {
             stestid = mydb.getLoginid();
             stestpw = mydb.getPw();
-            //testid.setText(stestid);
-           // testpw.setText(stestpw);
 
         } catch (Exception e) {
             e.printStackTrace();
