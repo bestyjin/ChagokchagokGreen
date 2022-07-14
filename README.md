@@ -6,3 +6,11 @@
 - 그릇을 가져갈 때마다 포인트적립 및 할인받기 가능!<br>
 ![1](https://user-images.githubusercontent.com/71006256/93233442-0ba9b000-f7b6-11ea-82d8-6455bc6973f3.png)
 ![2](https://user-images.githubusercontent.com/71006256/93233448-0c424680-f7b6-11ea-975f-9537d9955714.png)
+
+
+
+- 본인 담당
+
+1. QR 코드 리더기 생성
+2. 포인트 사용을 위한 전체 프로세스 구성 및 코드 작성
+
